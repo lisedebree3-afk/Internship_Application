@@ -8,7 +8,7 @@ library(stargazer)
 
 
 #Load stock data
-ev_data <- read_excel ("C:/Users/lised/OneDrive/Bureau/chinese eco.xlsx")
+ev_data <- read_excel ("")
 ev_data <- ev_data %>%
   filter(year>2015)
 # Converts all columns except Year and Country to numeric, ensuring data consistency for analysis.
@@ -106,7 +106,7 @@ ggplot(ev_data, aes(x = `EV share (%)`, y = predicted, color = country)) +
 
 
 stargazer(model, type = "html", 
-                            out = "C:/Users/lised/OneDrive/Bureau/ev_regression_table.html", 
+                            out = "", 
                             title = "Regression Results: EV Share",
                             dep.var.labels = "EV Share (%)",
                             covariate.labels = c("EV Subsidy", "GDP per Capita", "Chargers per 100k"),
