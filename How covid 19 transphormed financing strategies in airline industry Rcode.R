@@ -1,5 +1,5 @@
 # Load the dataset
-file_path <- "C:/Users/lised/OneDrive/Documents/HOMEWORK CORPORATE FINANCE 3.0.xlsx"
+file_path <- ""
 sheets <- excel_sheets(file_path)
 
 # Combine all sheets into one dataframe
