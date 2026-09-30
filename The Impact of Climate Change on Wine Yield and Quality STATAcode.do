@@ -1,6 +1,6 @@
 clear
 * === 1. IMPORTATION DES DONNÉES MÉTÉO (sheet1) ===
-import excel "C:/Users/lised/OneDrive/Bureau/STA-VIN-STRUCTURE_APPAREIL_PROD-C22-23/155F16002.xlsx", sheet("Sheet1") firstrow clear
+import excel "", sheet("Sheet1") firstrow clear
 save meteo.dta, replace
 
 use meteo.dta
